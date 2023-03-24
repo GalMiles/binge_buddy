@@ -1,0 +1,108 @@
+
+.App {
+  text-align: center;
+  background-color: #1c2e25;
+  color: rgb(200, 216, 186);
+  min-height: 100vh;
+  padding-top: 130px;
+  padding-bottom: 70px;
+}
+@media (max-width: 700px) {
+  .App{
+    padding-top: 70px;
+  }
+}
+
+
+.header {
+  width: 100%;
+  cursor: pointer;
+  position:relative;
+  display: flex;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3vw;
+  background-color:  #16241d;
+  color: rgb(200, 216, 186);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  box-shadow: 0px 1px 5px black;
+}
+
+@media (max-width: 1000){
+  .header{
+    padding-top: 15px;
+    font-size: 6.4vm;
+  }
+}
+
+ul li {
+  color: rgb(200, 216, 186);
+}
+
+.series {
+  color: rgb(200, 216, 186);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.seriesCard {
+  display:block;
+  flex-direction: column;
+  padding: 3px;
+  margin: 10px 10px;
+  background-color: #283432;
+  border-radius: 10px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  color:rgb(200, 216, 186);
+  text-align-last:center;
+}
+
+.seriesCard:hover {
+  background-color: rgb(219, 219, 196);
+  color:black;
+}
+
+@media (max-width: 550px) {
+  .seriesCard {
+    width: 46%
+  }
+}
+
+.poster {
+  border-radius: 10px;
+}
+
+.name {
+  width: 100%;
+  text-align: center;
+  font-size: 17px ;
+  padding: 8px 0
+}
+
+
+.SeriesModal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.SeriesModal__landscape {
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.SeriesModal__portrait {
+  display: none;
+  object-fit: contain;
+  border-radius: 10px;
+}
+

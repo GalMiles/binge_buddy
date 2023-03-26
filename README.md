@@ -1,4 +1,4 @@
-## BingBuddy - TV Series Web Application
+## BingeBuddy - TV Series Web Application
 
 React app that introduces TV shows and descriptions.
 
